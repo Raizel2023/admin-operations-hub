@@ -1,0 +1,49 @@
+# Credentials and local configuration; only the blank example is distributable.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+
+# Dependencies, generated Prisma client, builds and caches
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+.cache/
+.turbo/
+src/generated/
+*.tsbuildinfo
+next-env.d.ts
+
+# Operational data, test evidence and exports
+storage/
+uploads/
+public/uploads/
+backups/
+reports/
+exports/
+snapshots/
+test-results/
+playwright-report/
+_database/
+*.log
+*.sqlite*
+*.db
+*.dump
+*.backup
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.pdf
+
+# Local tooling
+.DS_Store
+.idea/
+.vscode/
